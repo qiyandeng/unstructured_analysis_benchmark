@@ -191,9 +191,9 @@ unstractured_analysis_benchmark/
 
 We welcome issue reports, feature requests, or code contributions. Please ensure to follow the project's coding standards and testing requirements.
 
-## 📄 License
+<!-- ## 📄 License
 
-[License information to be added]
+[License information to be added] -->
 
 ## 📚 Citation
 
