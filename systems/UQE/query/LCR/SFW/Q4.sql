@@ -1,0 +1,3 @@
+SELECT description.case_type, description.verdict, description.defendant_current_status
+FROM LCR
+WHERE description.defendant=='Minister for Immigration and Multicultural Affairs' AND description.evidence=='1' AND description.legal_fees>=1000 OR description.judge_name=='Heerey' AND description.evidence=='1' AND description.legal_fees>=1000 OR description.legal_basis_num==10 AND description.evidence=='1' AND description.legal_fees>=1000;

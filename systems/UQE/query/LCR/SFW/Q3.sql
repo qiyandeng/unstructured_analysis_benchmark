@@ -1,0 +1,3 @@
+SELECT description.nationality_for_applicant, description.first_judge, description.charges
+FROM LCR
+WHERE (description.defendant=='Minister for Immigration and Multicultural Affairs' AND description.verdict=='Others' AND description.nationality_for_applicant=='China') OR description.plaintiff=='Australian Competition and Consumer Commission' AND description.nationality_for_applicant=='China' OR description.judgment_year>=2009-5 AND description.nationality_for_applicant=='China';

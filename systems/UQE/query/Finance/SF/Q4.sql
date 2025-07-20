@@ -1,0 +1,2 @@
+SELECT description.principal_activities, description.registered_office
+FROM financial;

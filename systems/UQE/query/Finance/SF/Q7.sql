@@ -1,0 +1,2 @@
+SELECT description.major_equity_changes, description.bussiness_sales, description.net_profit_or_loss
+FROM financial;

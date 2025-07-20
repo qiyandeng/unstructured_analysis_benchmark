@@ -1,0 +1,2 @@
+SELECT description.remuneration_policy, description.bussiness_profit, description.major_equity_changes
+FROM financial;

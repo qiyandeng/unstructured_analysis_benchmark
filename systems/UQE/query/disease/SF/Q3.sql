@@ -1,0 +1,2 @@
+SELECT description.disease_name, description.preventive_measures, description.common_symptoms, description.diagnosis_challenges
+FROM disease;

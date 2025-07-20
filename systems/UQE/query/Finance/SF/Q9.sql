@@ -1,0 +1,2 @@
+SELECT description.executive_profiles, description.business_segments_num
+FROM financial;

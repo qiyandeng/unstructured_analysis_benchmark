@@ -1,0 +1,2 @@
+SELECT description.preventive_measures
+FROM disease;

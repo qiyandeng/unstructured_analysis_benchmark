@@ -1,0 +1,2 @@
+SELECT description.plaintiff_current_status
+FROM LCR;

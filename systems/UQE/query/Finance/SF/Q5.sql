@@ -1,0 +1,2 @@
+SELECT description.bussiness_profit, description.largest_shareholder, description.exchange_code
+FROM financial;

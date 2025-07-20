@@ -1,0 +1,2 @@
+SELECT description.counsel_for_respondent, description.plaintiff_current_status
+FROM LCR;
