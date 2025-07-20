@@ -6,6 +6,11 @@
 [![Dataset](https://img.shields.io/badge/Datasets-5-orange.svg)](https://github.com/example/datasets)
 [![Systems](https://img.shields.io/badge/Systems-7-purple.svg)](https://github.com/example/systems)
 
+<div align="center">
+  <img src="img/UDA.png" alt="Benchmark Construction Process" width="600" height="800" style="max-width: 60%; height: auto;">
+  <br>
+</div>
+
 ## 🎯 Project Overview
 
 Nowadays, the explosion of unstructured data presents immense analytical value. Leveraging the remarkable capability of large language models (LLMs) in extracting attributes of structured tables from unstructured data, researchers are developing LLM-powered data systems for users to analyze unstructured documents as working with a database. These unstructured data analysis (UDA) systems differ significantly in all aspects, including query interfaces, query optimization strategies, and operator implementations, making it unclear which performs best in which scenario. Unfortunately, there does not exist a comprehensive benchmark that offers high-quality, large-volume, and diverse datasets as well as rich query workload to thoroughly evaluate such systems.
