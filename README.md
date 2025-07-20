@@ -166,6 +166,52 @@ Our benchmark evaluates 7 existing unstructured data analysis systems:
 
 For a comprehensive evaluation, we adapted and modified these systems to support our evaluation requirements. Detailed adaptation strategies are provided in the appendix.
 
+### System Capabilities Comparison
+
+<div align="center">
+
+| System                | Query Interface | Chunking | Embedding | Multi-modal | Extract | Filter | Join | Aggregate | Logical Opt. | Physical Opt. |
+|------------------------|-----------------|----------|-----------|-------------|---------|--------|------|-----------|--------------|---------------|
+| 📋 **Evaporate**       | ❌              | ❌        | ❌         | ❌          | ✅       | ❌      | ❌    | ❌         | ❌            | ❌             |
+| 🐍 **Palimpzest (PZ)** | Code            | ❌        | ❌         | ✅          | ✅       | ✅      | ❌    | ❌         | ✅            | ✅             |
+| 🌸 **LOTUS**           | Code            | ❌        | ✅         | ✅          | ✅       | ✅      | ✅    | ✅         | ❌            | ✅             |
+| 🤖 **DocETL**          | Code            | ✅        | ✅         | ❌          | ✅       | ✅      | ✅    | ✅         | ✅            | ✅             |
+| 🎯 **ZenDB**           | SQL-like        | ✅        | ✅         | ❌          | ✅       | ✅      | ✅    | ❌         | ✅            | ❌             |
+| ❓ **QUEST**           | SQL-like        | ✅        | ✅         | ❌          | ✅       | ✅      | ✅    | ❌         | ✅            | ❌             |
+| 🔍 **UQE**             | SQL-like        | ❌        | ✅         | ❌          | ✅       | ✅      | ❌    | ✅         | ✅            | ❌             |
+
+*Table 1: Overview of existing unstructured data analysis systems and their capabilities.*
+
+
+</div>
+
+<!-- ### 🏆 System Leaderboard
+
+<div align="center">
+
+| Rank | System | 🏅 Score | 🎯 Strengths | 📊 Capabilities |
+|:----:|--------|:--------:|-------------|----------------|
+| 🥇 | 🤖 **DocETL** | **9/10** | Full-featured, Comprehensive | All operators + Optimization |
+| 🥈 | 🌸 **LOTUS** | **8/10** | Rich operators, Multi-modal | Complete operator set |
+| 🥉 | 🐍 **Palimpzest** | **7/10** | Code interface, Multi-modal | Core operators + Optimization |
+| 4️⃣ | 🎯 **ZenDB** | **7/10** | SQL interface, Advanced chunking | Most operators + Logical opt. |
+| 5️⃣ | ❓ **QUEST** | **7/10** | SQL interface, Good chunking | Most operators + Logical opt. |
+| 6️⃣ | 🔍 **UQE** | **6/10** | SQL interface, Aggregation | Core operators + Optimization |
+| 7️⃣ | 📋 **Evaporate** | **2/10** | Simple extraction | Basic extract only |
+
+</div>
+
+**🏅 Scoring Criteria:**
+- **Query Interface** (1pt): Code/SQL-like interface
+- **Data Processing** (2pts): Chunking + Embedding + Multi-modal
+- **Operators** (4pts): Extract + Filter + Join + Aggregate  
+- **Optimization** (3pts): Logical + Physical optimization
+
+*The leaderboard is based on comprehensive capability analysis across all system modules.* -->
+
+
+
+
 ## 📁 File Structure
 
 ```
