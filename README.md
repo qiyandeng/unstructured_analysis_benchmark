@@ -15,7 +15,7 @@ To fill this gap, we present **Unstructured Data Analysis Benchmark**, the first
 This is a comprehensive benchmark system for unstructured document analysis, designed to evaluate the performance of various document understanding and information extraction systems. The benchmark includes 5 datasets from different domains, covering various document types from simple structured to complex multimodal content.
 
 <div align="center">
-  <img src="img/framework.png" alt="Benchmark Construction Process" width="600" height="800" style="max-width: 60%; height: auto;">
+  <img src="img/framework_00.png" alt="Benchmark Construction Process" width="600" height="800" style="max-width: 60%; height: auto;">
   <br>
   <em>Figure 1: System architecture showing the query interface, logical optimization, physical optimization, and unstructured data processing pipeline.</em>
 </div>
