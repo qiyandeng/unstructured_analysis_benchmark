@@ -5,14 +5,10 @@ import os
 from tqdm import tqdm
 import json
 from litellm import batch_completion
-os.environ["OPENAI_API_BASE"] = "https://aihubmix.com/v1"
-os.environ["OPENAI_API_KEY"] = "sk-cTFBASdrq7WT3RWT534eEe30AbA94099Af0cBd8aE54816E9"
+os.environ["OPENAI_API_BASE"] = ""
+os.environ["OPENAI_API_KEY"] = ""
 
-# os.environ["OPENAI_API_BASE"] = "https://api.gptsapi.net/v1"
-# os.environ["OPENAI_API_KEY"] = "sk-INTd72cf84bd477b70433a9102a318263d8fdd1838emPKLc"
 
-# os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"
-# os.environ["OPENAI_API_KEY"] = "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"
 
 #%%
 
