@@ -1,6 +1,6 @@
 # 📊 Unstructured Data Analysis Benchmark
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv)](https://arxiv.org/abs/example)
+
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Dataset](https://img.shields.io/badge/Datasets-5-orange.svg)](https://github.com/example/datasets)
@@ -47,18 +47,12 @@ Due to the large size of our datasets, we provide access through download links 
 
 | Dataset | Size | Download Link | Ground Truth |
 |---------|------|---------------|--------------|
-| NBA | ~50MB | [Download NBA Dataset](https://example.com/nba_dataset.zip) | [Download Ground Truth](https://example.com/nba_ground_truth.csv) |
-| WikiArt | ~200MB | [Download WikiArt Dataset](https://example.com/wikiart_dataset.zip) | [Download Ground Truth](https://example.com/wikiart_ground_truth.csv) |
-| LCR | ~150MB | [Download LCR Dataset](https://example.com/lcr_dataset.zip) | [Download Ground Truth](https://example.com/lcr_ground_truth.csv) |
-| Finance | ~2GB | [Download Finance Dataset](https://example.com/finance_dataset.zip) | [Download Ground Truth](https://example.com/finance_ground_truth.csv) |
-| Healthcare | ~15GB | [Download Healthcare Dataset](https://example.com/healthcare_dataset.zip) | [Download Ground Truth](https://example.com/healthcare_ground_truth.csv) |
+| NBA | ~50MB | [Download NBA Dataset](https://drive.google.com/drive/folders/1SJlRi0xyDxghbIf87Us7G2Q8C1Baoc34?usp=drive_link) | [Download Ground Truth](https://drive.google.com/drive/folders/11BLcF42xbshAMTGkq6yjtsn_PWo3xvei?usp=drive_link) |
+| WikiArt | ~200MB | [Download WikiArt Dataset](https://drive.google.com/drive/folders/1BlymFgt_ft0qKaylae5v2HvoXZ8iM5lY?usp=drive_link) | [Download Ground Truth](https://drive.google.com/drive/folders/11BLcF42xbshAMTGkq6yjtsn_PWo3xvei?usp=drive_link) |
+| LCR | ~150MB | [Download LCR Dataset](https://drive.google.com/drive/folders/1blpgfHjoXlz_Jl6EboqN-657IpxBL81c?usp=drive_link) | [Download Ground Truth](https://drive.google.com/drive/folders/11BLcF42xbshAMTGkq6yjtsn_PWo3xvei?usp=drive_link) |
+| Finance | ~2GB | [Download Finance Dataset](https://drive.google.com/drive/folders/1cW1iIBqTsUm_r5NexLJ4FCIeuGGJ8D6S?usp=drive_link) | [Download Ground Truth](https://drive.google.com/drive/folders/11BLcF42xbshAMTGkq6yjtsn_PWo3xvei?usp=drive_link) |
+| Healthcare | ~15GB | [Download Healthcare Dataset](https://drive.google.com/drive/folders/1jv29X8I9VZAbrsTfWa13rqC2QvSY3C0V?usp=drive_link) | [Download Ground Truth](https://drive.google.com/drive/folders/11BLcF42xbshAMTGkq6yjtsn_PWo3xvei?usp=drive_link) |
 
-### Data Format
-
-Each dataset is provided in the following format:
-- **Raw Data**: JSON files containing the original unstructured documents
-- **Ground Truth**: CSV files with manually labeled attribute values
-- **Metadata**: Additional information about data sources and processing
 
 ## 📚 Dataset Details
 
@@ -145,13 +139,13 @@ Our benchmark evaluates 7 existing unstructured data analysis systems:
 
 | System | Open Source | Repository | Modifications |
 |--------|-------------|------------|---------------|
-| 📋 Evaporate | ✅ | [GitHub](https://github.com/HazyResearch/evaporate) | [Adaptation](https://github.com/example/evaporate-adaptation) |
-| 🐍 Palimpzest (PZ) | ✅ | [GitHub](https://github.com/mitdbg/palimpzest) | [Adaptation](https://github.com/example/pz-adaptation) |
-| 🌸 LOTUS | ✅ | [GitHub](https://github.com/lotus-data/lotus) | [Adaptation](https://github.com/example/lotus-wrapper) |
-| 🤖 DocETL | ✅ | [GitHub](https://github.com/ucbepic/docetl) | [Direct Usage](https://github.com/example/docetl-usage) |
+| 📋 Evaporate | ✅ | [GitHub](https://github.com/HazyResearch/evaporate) | [Adaptation](systems/Evaporate) |
+| 🐍 Palimpzest (PZ) | ✅ | [GitHub](https://github.com/mitdbg/palimpzest) | [Adaptation](systems/PZ) |
+| 🌸 LOTUS | ✅ | [GitHub](https://github.com/lotus-data/lotus) | [Adaptation](systems/Lotus) |
+| 🤖 DocETL | ✅ | [GitHub](https://github.com/ucbepic/docetl) | [Direct Usage](systems/DocETL) |
 | ❓ QUEST | ✅ | [GitHub](https://github.com/qiyandeng/QUEST) | [Adaptation](https://github.com/example/quest-extension) |
-| 🎯 ZenDB | ❌ | [Paper](https://arxiv.org/abs/2405.04674) | [Implementation](https://github.com/example/zendb-impl) |
-| 🔍 UQE | ❌ | [Paper](https://arxiv.org/abs/2407.09522) | [Implementation](https://github.com/example/uqe-impl) |
+| 🎯 ZenDB | ❌ | [Paper](https://arxiv.org/abs/2405.04674) | [Implementation](systems/ZenDB) |
+| 🔍 UQE | ❌ | [Paper](https://arxiv.org/abs/2407.09522) | [Implementation](systems/UQE) |
 
 ### System Descriptions:
 
@@ -250,13 +244,13 @@ We welcome issue reports, feature requests, or code contributions. Please ensure
 
 [License information to be added] -->
 
-## 📚 Citation
+<!-- ## 📚 Citation
 
 If you use this benchmark in your research, please cite our paper:
 
 ```bibtex
 [Citation format to be added]
-```
+``` -->
 
 ## 📧 Contact
 
