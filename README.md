@@ -233,7 +233,9 @@ unstractured_analysis_benchmark/
 │   └── uqe/          # UQE system implementation
 └── evaluation/       # Evaluation scripts (to be added)
     ├── evaluate.py
-    └── metrics.py
+    ├── evaluate_healthcare.py
+    ├── evaluate_agg.py
+    └── attr_types.json
 ```
 
 ## 🤝 Contributing
